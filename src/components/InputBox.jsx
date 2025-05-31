@@ -34,7 +34,7 @@ function InputBox({
         <div className='flex justify-end w-1/2 text-right fles-wrap'>
             <p className="w-full mb-2 text-black-40">Currency Type</p>
             <select
-             className="px-1 py-1 bg-gray-200 rounded-lg outline-none cursor-pointer"
+             className="px-1 h-10 py-1 mt-5 mr-3 bg-gray-200 rounded-lg outline-none cursor-pointer"
              value={selectCurrency}
              onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
              disabled={currencyDisable}
